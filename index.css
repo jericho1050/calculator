@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  
+html {
+    font-size: 1.5em;
+}
+
+  body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.row {
+    justify-content: center;
+}
+
+.col-2 {
+    width: 9%;
+}
+
+input {
+    margin-bottom: 10px;
+}
+button {
+    width: 100%;
+    margin: 5%;
+    padding: 69%;
+}
+
+#operator {
+    background-color: gold
+}
+
+#operator:hover {
+    background-color: black;
+}
